@@ -1,7 +1,7 @@
 .tech-slideshow {
   height: 718px;
-  max-width: 1920px;
-  margin: -143px;
+  max-width: 2100px;
+  margin: -150px;
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
@@ -18,7 +18,7 @@
   transform: translate3d(0, 0, 0);
 }
 .tech-slideshow .mover-1 {
-  animation: moveSlideshow 8s linear infinite;
+  animation: moveSlideshow 17s linear infinite;
 }
 
 
