@@ -1,0 +1,17 @@
+.slideshow {
+  position: relative;
+  overflow: hidden;
+}
+.images {
+  background: url(https://cdn.discordapp.com/attachments/781347550980472854/781387092491370496/creeks3.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 10s linear infinite;
+}
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
